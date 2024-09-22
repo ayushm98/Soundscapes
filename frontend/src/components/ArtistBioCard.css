@@ -1,0 +1,43 @@
+.artist-bio-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.artist-image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+.artist-info h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.artist-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.artist-info a {
+  display: inline-block;
+  background-color: #ff4081;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.artist-info a:hover {
+  background-color: #e91e63;
+}
